@@ -1,0 +1,199 @@
+body {
+    font-family: 'Poppins', serif;
+    background-color: #FAF1E4;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: 'Poppins', serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+header {
+    padding: 1% 2% 1% 1%;
+    background-color: #3C7581;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 17%;
+    text-align: right;
+    z-index: 3;
+}
+
+.user_profile {
+    display: inline;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #355F68;
+    width: 17%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.name {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 13%;
+    height: 10%;
+}
+
+.chats {
+    font-size: 13px;
+    width: 100%;
+    padding-left: 8%;
+}
+
+button[id="add_chat"] {
+    display: inline;
+    padding: 7% 0 7% 7%;
+    text-align: left;
+    width: 75%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 45px;
+    background-color: #25343F;
+    color: white;
+    cursor: pointer;
+}
+
+.date {
+    line-height: 35px;
+}
+
+span.date {
+    color: #FFEED6;
+}
+
+.chat_name {
+    display: block;
+}
+
+span.chat_name {
+    color: #FFFFFF;
+}
+
+.generation {
+    position: fixed;
+    bottom: 5%;
+    left: 22%;
+    width: 48%;
+}
+
+.regeneration {
+    width: 100%;
+}
+
+.generation button[id="regenerate"] {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #435334;
+    padding: 14px;
+    margin: 8px;
+    border-radius: 45px;
+    background-color: #FFEED6;
+    color: #435334;
+    cursor: pointer;
+}
+
+.user-input {
+    margin-top: 20px;
+    display: flex;
+}
+
+.user-input input[type="text"] {
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #D6BC97;
+    background-color: #FFEED6;
+    width: calc(100% - 60px); /* Adjusted width to accommodate button */
+    padding: 10px;
+}
+
+.user-input button[id="send"] {
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: #466377;
+    color: white;
+    cursor: pointer;
+}
+
+.links-bar {
+    padding: 20px;
+    background-color: #FFEED6;
+    width: 21%;
+    position: fixed;
+    top: 15%;
+    right: 2%;
+    bottom: 5%;
+    text-align: left;
+    z-index: 2;
+}
+
+.links-header {
+    font-size: 23px;
+    color: #39462C;
+}
+
+.ai-response {
+    font-size: 13px;
+    padding-top: 1%;
+    width: 53%;
+    height: 51%;
+    margin-top: 6%;
+    margin-left: 22%;
+    position: fixed;
+    z-index: 1;
+}
+
+.message_block {
+    display: flex;
+}
+
+.message {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #D6BC97;
+    width: 72%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 14px;
+    background-color: #FFEED6;
+}
+
+.user-message {
+    margin-right: 10px;
+}
+
+.ai-message {
+    margin-left: 10px;
+}
+
+.user-feedback {
+    width: 100%;
+    display: flex;
+}
+
+.user-feedback button {
+    padding: 2%;
+    margin: 8px;
+    border: none;
+    border-radius: 45px;
+    background-color: #466377;
+    color: white;
+    cursor: pointer;
+}

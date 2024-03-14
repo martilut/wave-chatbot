@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop AI Chatbot</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/toggle_button.css">
+</head>
+<body>
+<header>
+    <div class="switch-toggle">
+        <input id="Model 1" name="state-d" type="radio" checked="" />
+        <label for="Model 1" onclick="">Model 1</label>
+
+        <input id="Model 2" name="state-d" type="radio" checked="checked" />
+        <label for="Model 2" class="disabled" onclick="">Model 2</label>
+
+        <input id="Model 3" name="state-d" type="radio" />
+        <label for="Model 3" onclick="">Model 3</label>
+    </div>
+    <div class="user_profile">
+        <img src = "assets/user_avatar.svg" alt="user-avatar" width="50px" height="50px"/>
+    </div>
+</header>
+<aside class="sidebar">
+    <div class="name"><b>WAVE</b> CHATBOT</div>
+    <div class="chats">
+        <button id="add_chat">New chat</button>
+        <div class="date">
+            <span class="date">YESTERDAY</span>
+            <div class="chat_names">
+                <span class="chat_name">Platform Marketplace 101</span>
+                <span class="chat_name">Give me a proposal for company</span>
+                <span class="chat_name">Can you write a short paragraph</span>
+            </div>
+        </div>
+        <div class="date">
+            <span class="date">LAST WEEK</span>
+            <div class="chat_names">
+                <span class="chat_name">Platform Marketplace 101</span>
+                <span class="chat_name">Give me a proposal for company</span>
+            </div>
+        </div>
+        <div class="date">
+            <span class="date">LAST MONTH</span>
+            <div class="chat_names">
+                <span class="chat_name">Platform Marketplace 101</span>
+                <span class="chat_name">Give me a proposal for company</span>
+            </div>
+        </div>
+    </div>
+</aside>
+<main>
+    <div class="ai-response">
+        <div class="message_block">
+            <div class="message user-message">
+                The advantages of Artificial Intelligence
+            </div>
+            <img src = "assets/user_avatar.svg" alt="user-avatar" width="50px" height="50px"/>
+        </div>
+        <div class="message_block">
+            <img src = "assets/ai_avatar.png" alt="ai-avatar" width="50px" height="50px"/>
+            <div class="message ai-message">
+                Artificial Intelligence (AI) offers numerous advantages
+                and has the potential to revolutionize various aspects
+                of our lives. Here are some key advantages of AI:
+                <ol>
+                    <li>Automation;</li>
+                    <li>Decision-making;</li>
+                    <li>Improved accuracy;</li>
+                    <li>Continuous operation.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="user-feedback">
+            <button>Make Response Shorter</button>
+            <button>Explain it to me like a lawyer</button>
+            <button>Tell me about more</button>
+        </div>
+    </div>
+    <div class="generation">
+        <div style="text-align:center;" class="regeneration">
+            <button id="regenerate">Regenerate response</button>
+        </div>
+        <div class="user-input">
+            <input type="text" placeholder="Type your message...">
+            <button id="send">
+                <img src = "assets/send.svg" alt="send-icon" class="center"/>
+            </button>
+        </div>
+    </div>
+    <div class="links-bar">
+        <div class="links-header">Links to <b>Document</b> and <b>Website</b> for this Response</div>
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.switch-toggle {
+    font-size: 13px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B1DEFF;
+    padding: 10px;
+    float: left;
+    background-color: #25343F;
+    border-radius: 45px;
+}
+.switch-toggle input {
+    position: absolute;
+    opacity: 0;
+}
+.switch-toggle input + label {
+    padding: 7px 20px 7px 20px;
+    float:left;
+    color: #fff;
+    cursor: pointer;
+}
+.switch-toggle input:checked + label {
+    background: #FAF1E4;
+    color: black;
+    border-radius: 45px;
+}
+
+.switch {
+
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
