@@ -25,16 +25,3 @@
     color: black;
     border-radius: 45px;
 }
-
-.switch {
-
-    width: 60px;
-    height: 34px;
-}
-
-/* Hide default HTML checkbox */
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}

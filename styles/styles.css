@@ -121,12 +121,12 @@ span.chat_name {
     border-style: solid;
     border-color: #D6BC97;
     background-color: #FFEED6;
-    width: calc(100% - 60px); /* Adjusted width to accommodate button */
+    width: calc(100% - 40px);
     padding: 10px;
 }
 
 .user-input button[id="send"] {
-    width: 60px;
+    width: 40px;
     border: none;
     border-radius: 5px;
     background-color: #466377;
